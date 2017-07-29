@@ -1,0 +1,79 @@
+.service
+	overflow: hidden
+	padding-bottom: 28px
+	.devider
+		height: 1px
+		width: 200%
+		position: absolute
+		left: -20%
+		right: -20%
+		margin: 0 auto
+		border-bottom: 1px solid #f4f4f4
+		&--dotted
+			border-top: 1px dotted #f4f4f4
+			border-bottom: 0
+	&-item
+		position: relative
+		padding: 60px 0 0 70px
+		width: 40%
+		float: left
+		transition: all .3s
+		&:after
+			display: table
+			clear: both
+			content: ""
+		&:hover
+			.service-item-subtitle span
+				color: #fff
+				transition: all .3s
+				background-color: $roseColor
+			.service-item-pict
+		&--left
+			margin-right: 20%
+		&-pict
+			position: absolute
+			top: 60px
+			left: 0
+			opacity: .2
+			transition: all .3s
+		&-subtitle
+			text-transform: uppercase
+			margin-bottom: 25px
+			color: $textColor
+			font-size: 15px
+			line-height: 20px
+			font-weight: bold
+			position: relative
+			span
+				width: 30px
+				height: 30px
+				border-radius: 50%
+				border: 2px solid $roseColor
+				position: absolute
+				right: 0
+				text-align: center
+				line-height: 27px
+				text-transform: none
+				cursor: pointer
+				font-weight: bold
+		&-text
+			color: #414252
+			font-size: 13px
+			line-height: 20px
+			ul li
+				padding-left: 25px
+				position: relative
+				&:before
+					content: ""
+					position: absolute
+					left: 0
+					top: 5px
+					width: 7px
+					height: 7px
+					background-image: url("../img/list_pict.png")
+.row
+	padding-bottom: 30px
+	&:after
+		display: table
+		clear: both
+		content: ""

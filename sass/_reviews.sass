@@ -1,0 +1,99 @@
+.review
+	padding-bottom: 55px
+	text-align: center
+	.review-item
+		float: left
+		width: 33.33%
+		padding: 40px 30px 0
+		margin-top: 20px
+		position: relative
+		text-align: left
+		&:after
+			content: ""
+			clear: both
+			display: table
+		&:hover
+			.review-item-author .name
+				color: $roseColor
+			.review-item-quote
+				color: $roseColor
+			.review-item-quote--video
+				color: #fff
+				background-color: $roseColor
+		&-text
+			line-height: 25px
+			font-size: 17px
+			color: $textColor
+			margin-bottom: 30px
+		&-photo
+			border-radius: 50%
+			display: block
+			margin-bottom: 15px
+			width: 50px
+			height: 50px
+		&-video
+			margin-bottom: 17px
+			max-width: 100%
+		&-author
+			color: $textColor
+			.name
+				font-weight: bold
+				font-size: 13px
+				line-height: 20px
+				transition: all .3s
+			.position
+				margin-top: 15px
+				font-size: 12px
+				a
+					text-decoration: underline
+					font-weight: bold
+					display: inline-block
+					color: #d8d9d9
+					em
+						color: $textColor
+						font-style: normal
+				span
+					margin-right: 15px
+					position: relative
+					&:after
+						content: ""
+						position: absolute
+						width: 3px
+						height: 3px
+						border-radius: 50%
+						background-color: $roseColor
+						top: 0
+						bottom: 0
+						margin: auto
+						right: -10px
+		&-quote
+			position: absolute
+			font-size: 56px
+			transition: all .3s
+			top: -8px
+			left: 30px
+			color: $quotesColor
+			&--video
+				top: 0
+				width: 25px
+				height: 25px
+				background-color: $quotesColor
+				border-radius: 50%
+				font-size: 16px
+				color: #fff
+				text-align: center
+				line-height: 25px
+	.review-reload
+		display: inline-block
+		margin: 0 auto
+		color: #454545
+		text-transform: uppercase
+		font-size: 11px
+		width: 100%
+		font-weight: 900
+		margin-top: 70px
+		cursor: pointer
+		img
+			position: relative
+			top: 5px
+			margin-right: 10px

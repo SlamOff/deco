@@ -1,0 +1,119 @@
+$roseColor: #a70c5d
+$roseColor2: #810a47
+$textColor: #3f4147
+$quotesColor: #c9cacf
+input::-webkit-input-placeholder
+	font-size: 11px
+	font-weight: 500
+	text-transform: uppercase
+	color: $textColor
+input::-moz-placeholder
+	font-size: 11px
+	font-weight: 500
+	text-transform: uppercase
+	color: $textColor
+input:-ms-input-placeholder
+	font-size: 11px
+	font-weight: 500
+	text-transform: uppercase
+	color: $textColor
+input:-moz-placeholder
+	font-size: 11px
+	font-weight: 500
+	text-transform: uppercase
+	color: $textColor
+textarea::-webkit-input-placeholder
+	font-size: 15px
+	color: #aeaeb0
+textarea::-moz-placeholder
+	font-size: 15px
+	color: #aeaeb0
+textarea:-ms-input-placeholder
+	font-size: 15px
+	color: #aeaeb0
+textarea:-moz-placeholder
+	font-size: 15px
+	color: #aeaeb0
+html
+	font-size: 10px
+	body
+		min-width: 320px
+		font: 1.8rem "GothamPro", sans-serif
+		position: relative
+		margin: 0 auto
+		overflow-x: hidden
+		.main-btn
+			border-radius: 25px 24px 24px 25px/25px 25px 24px 24px
+			width: 100%
+			max-width: 180px
+			height: 50px
+			cursor: pointer
+			border: 0
+			background-color: $roseColor
+			color: #fff
+			font-size: 11px
+			text-transform: uppercase
+			font-weight: 900
+			position: relative
+			display: block
+		input,input:focus,select,select:focus,textarea
+			outline: none
+		a
+			color: inherit
+			outline: none
+			text-decoration: none
+		button
+			border: 0
+			outline: 0
+		section
+			overflow: hidden
+			padding-top: 60px
+			border-bottom: 1px solid #f4f4f4
+			&:after
+				display: table
+				clear: both
+				content: ""
+			.section-title
+				text-align: center
+				font-weight: bold
+				font-size: 28px
+				position: relative
+				padding-bottom: 20px
+				text-transform: uppercase
+				color: $textColor
+				&:after
+					content: ""
+					position: absolute
+					width: 40px
+					height: 2px
+					right: 0
+					left: 0
+					margin: auto
+					bottom: -1px
+					background-color: $roseColor
+			.section-descr
+				margin-top: 20px
+				font-size: 15px
+				color: $textColor
+				font-size: 15px
+				line-height: 20px
+				text-align: center
+				margin-bottom: 50px
+				span
+					font-weight: bold
+.container
+	max-width: 1120px
+	position: relative
+	margin: 0 auto
+	&--narrow
+		padding-left: 60px
+#interest-button
+	width: 100%
+	&:focus
+		outline: none
+input.error, textarea.error
+	border-color: red!important
+input.valid, textarea.valid
+	border-color: green!important
+label.error
+	display: none!important

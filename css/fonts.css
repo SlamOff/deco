@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothaProReg.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothaProLig.otf") format("opentype");
+  font-style: normal;
+  font-weight: 300; }
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothaProMed.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothaProBol.otf") format("opentype");
+  font-style: normal;
+  font-weight: bold; }
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothaProBla.otf") format("opentype");
+  font-style: normal;
+  font-weight: 900; }
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothaProIta.otf") format("opentype");
+  font-style: italic;
+  font-weight: normal; }
